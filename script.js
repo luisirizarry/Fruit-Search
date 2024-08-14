@@ -7,7 +7,7 @@ const fruit = [
 	"Feijoa", "Fig", "Gooseberry", "Grape", "Guava", "Honeyberry", "Honeydew", "Huckleberry", "Jabuticaba", "Jackfruit", "Jambul", "Jujube", "Kiwifruit", 
     "Kumquat", "Lemon", "Lime", "Loquat", "Longan", "Lychee", "Mango", "Mangosteen", "Marionberry", "Melon", "Miracle fruit", "Mulberry", "Nance", 
     "Noni", "Olive", "Orange", "Papaya", "Passionfruit", "Peach", "Pear", "Persimmon", "Pitanga", "Plantain", "Plum", "Pineapple", "Pomegranate", 
-    "Pomelo", "Quince", "Raspberry", "Rambutan", "Redcurrant", "Salak", "Salmonberry", "Satsuma", "Sapodilla", "Soursop", "Starfruit", "Strawberry", "Tamarillo", "Tamarind", "Yuzu", "Ziziphus"
+    "Pomelo", "Quince", "Raspberry", "Rambutan", "Redcurrant", "Salak", "Salmonberry", "Satsuma", "Sapodilla", "Soursop", "Starfruit", "Strawberry", "Tamarillo", "Tamarind", "Tomato", "Yuzu", "Ziziphus"
 ];
 
 function search(str) {
