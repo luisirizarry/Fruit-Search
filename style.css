@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: none;
+}
+
+body {
+  background: linear-gradient(to right, orange, rgb(255, 102, 0));
+  font-family: Arial, sans-serif;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.075);
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.search-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.075);
+  border-radius: 8px;
+  position: relative;
+}
+
+.search-container input,
+.search-container .suggestions {
+  width: 100%; 
+}
+
+.suggestions {
+  position: absolute; 
+  background-color: rgba(255, 255, 255, 0.075);
+  /* Got the scroll code from here: https://stackoverflow.com/questions/67768151/add-a-scroll-after-nth-li-in-a-ul */
+  max-height: 115px; 
+  overflow-y: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+ul.has-suggestions {
+  display: block; 
+  width: 100%; 
+  background-color: rgba(255, 255, 255, 0.075); 
+  border-radius: 4px;
+}
+
+ul li {
+  padding: 10px;
+  transition: background-color 0.3s, font-weight 0.3s;
+}
+
+ul li:hover {
+  background-color: rgb(255, 102, 0);
+  font-weight: bold;
+}
+
+
+
+
